@@ -1,4 +1,4 @@
-#! /bin/sh
+#! bin/bash
 
 # first, generate 100 random pages
 
