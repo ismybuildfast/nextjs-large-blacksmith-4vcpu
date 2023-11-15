@@ -7,7 +7,7 @@ random_pages_dir=app/random-pages
 
 rm -rf $random_pages_dir
 
-for i in {1..1000}
+for i in {1..5}
 do
   random_page_dir="$random_pages_dir/$i"
   random_page_path="$random_page_dir/page.tsx"
