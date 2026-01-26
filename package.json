@@ -1,18 +1,14 @@
 {
-  "name": "nextjs",
+  "name": "nextjs-large-blacksmith-4vcpu",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "./build.sh",
     "build-only": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "cf-build": "opennextjs-cloudflare build",
-    "cf-deploy": "opennextjs-cloudflare deploy"
+    "lint": "next lint"
   },
   "dependencies": {
-    "@opennextjs/cloudflare": "^1.11.0",
     "@faker-js/faker": "^8.3.1",
     "@heroicons/react": "^2.0.18",
     "next": "15.5.9",
@@ -29,8 +25,7 @@
     "postcss": "^8",
     "prettier": "^3.1.0",
     "tailwindcss": "^3",
-    "typescript": "^5",
-    "wrangler": "^4.45.3"
+    "typescript": "^5"
   },
   "prettier": {}
 }
